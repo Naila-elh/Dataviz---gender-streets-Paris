@@ -10,5 +10,5 @@ Ce repo contient le code nous ayant permis de construire une base de données, p
 Après avoir procédé à un nettoyage basique des données (1_Cleaning_dataset.ipynb), nous avons utilisé un modèle de Name entity recognition pour reconnaître, dans la variable "historique" de chaque rue, le nom de l'individu, sa profession, et ses dates (2_NER.ipynb). Pour cela, nous avons au préalable labellisé à la main 200 rues, car les modèles classiques de NER ne permettent pas de reconnaître, en français, la profession des individus. Puis, nous avons incorporé les données Wikipédia (3_Wikipedia.ipynb), afin de distinguer les noms de femmes et les noms d'hommes. 
 Enfin, le notebook 4_Graphs.ipynb contient le code ayant permis d'exporter des tables pour construire par la suite certains graphes via l'interface [datawrapper](datawrapper.de), ainsi que des wordclouds.
 
-## Produit
+## Accès au site web
 Le site web produit est disponible sur la page [https://a-qui-appartient-la-rue.github.io/](https://a-qui-appartient-la-rue.github.io/).
